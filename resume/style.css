@@ -1,11 +1,14 @@
 h1{
   color: (#444);
-  font-size: 36px;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  color: #33485e;
+  text-align: center;
   }
 
   body{
     font-family: 'open sans', arial, sans-serif;
     font-size: 1em;
     color: #444;
-
+    font-weight: 400;
   }

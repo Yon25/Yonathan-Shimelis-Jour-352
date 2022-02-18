@@ -1,14 +1,53 @@
+/*Styles for my resume*/
+
+/* Name */
 h1{
-  color: (#444);
   font-size: 3.5em;
   text-transform: uppercase;
   color: #33485e;
   text-align: center;
   }
 
+/*Main resume*/
   body{
     font-family: 'open sans', arial, sans-serif;
     font-size: 1em;
     color: #444;
     font-weight: 400;
   }
+
+/*Journalist title*/
+strong {
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em
+}
+
+/*Section titles*/
+h2{
+  font-size: 1.5em
+  text-transform:uppercase;
+  background-color: #33485e;
+  color: white;
+  font-weight: 400;
+}
+
+/*experience title*/
+h3{
+  font-weight: 600;
+  font-size: 2em
+}
+
+h4{
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+
+/*dates*/
+h5{
+font-weight: 400;
+font-style: italic;
+font-size: 1em;
+}

@@ -2,11 +2,11 @@
 
 /* Name */
 #name{
-  font-size: 3.5em;
+  font-size: 3em;
   text-transform: uppercase;
   color: #33485e;
   text-align: center;
-  border-bottom: 2px solid #33485e;
+  border-bottom: 1px solid #33485e;
   width: 60%;
   min-width:300px;
   margin: 0 auto;
@@ -24,19 +24,23 @@
     width:100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 50px;
   }
 
 /*Journalist title*/
-strong {
+#title {
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.5em
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: : 20px;
+
 }
 
 /*Section titles*/
 .sectionheader{
-  font-size: 1.5em
+  font-size: 1.5em;
   text-transform:uppercase;
   background-color: #33485e;
   color: white;
@@ -45,24 +49,55 @@ strong {
   margin-bottom: 10px;
   width: 70%;
   min-width: 300px;
-  margin: 0 auto;
 }
 
 /*experience title*/
-h3{
+.jobtitle{
   font-weight: 600;
-  font-size: 2em
+  font-size: 2em;
 }
 
-h4{
+.organization{
   font-weight: 400;
   font-size: 1.5em;
 }
 
 
 /*dates*/
-h5{
+.date{
 font-weight: 400;
 font-style: italic;
 font-size: 1em;
+margin-top:3px;
+}
+
+.description{
+  margin-top:10px;
+  margin:bottom 10px;
+}
+
+.menu{
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.menu li{
+  display: inline;
+}
+
+#degrees{
+  margin-top:5px
+}
+
+#do{
+  margin-top: 5px;
+}
+
+.top{
+  width:60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
 }

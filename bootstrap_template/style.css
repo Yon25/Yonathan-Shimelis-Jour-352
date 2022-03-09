@@ -1,0 +1,39 @@
+.bi {
+font-size:3em;
+}
+.col-md-4 {
+text-align: center;
+
+}
+.col-md-6{
+text-align: center;
+}
+.btn{
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 25px;
+}
+h1{
+  font-family: "Open Sans", sans-serif;
+}
+h2{
+  font-family: "Open Sans", sans-serif;
+}
+h3{
+  font-family: "Open Sans", sans-serif;
+}
+.navbar-brand{
+  font-family: "Open Sans", sans-serif;
+}
+.row {
+  padding: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  h2{
+    padding-top: 50px;
+  }
+  .btn{
+  background-color: teal !important;
+}
+}

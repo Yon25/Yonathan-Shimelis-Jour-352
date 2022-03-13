@@ -30,8 +30,8 @@ p{
   font-size: 13px;
 }
 
-#graphictext{
-  font-size: 25px;
+.graphictext{
+  font-size: 20px;
   color: grey;
   font-style: italic;
 }
@@ -44,4 +44,5 @@ blockquote{
 
 a{
   font-size:20px;
+  padding-bottom: 25px;
 }

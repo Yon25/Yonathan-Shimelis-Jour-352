@@ -1,0 +1,47 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.masthead{
+  font-family: "Times New Roman";
+  font-size: 50px;
+  font-style: oblique;
+  text-align: center;
+  background-color: Navy;
+  color:white;
+}
+
+#byline{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+
+p{
+  font-family: Georgia;
+  font-size: 13px;
+}
+
+#graphictext{
+  font-size: 25px;
+  color: grey;
+  font-style: italic;
+}
+
+blockquote{
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+a{
+  font-size:20px;
+}

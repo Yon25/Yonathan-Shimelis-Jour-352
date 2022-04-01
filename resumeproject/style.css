@@ -44,3 +44,11 @@ footer{
   background-color: green;
   color: white
 }
+
+img{
+max-width: 90%;
+}
+
+footer{
+  padding: 10px;
+}

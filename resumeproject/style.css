@@ -12,12 +12,16 @@ text-align:  center;
 }
 
 body{
-  font-family: "Times New Roman";
+  font-family: "Times New Roman", serif;
 }
 
 h1{
   color: Green;
-  font-weight: "Arial";
+  font-weight: bold;
+}
+
+h3{
+  font-weight: bold;
 }
 
 h5{
@@ -27,8 +31,16 @@ h5{
 
 .container{
   padding: 10px;
+  width: 100%;
+  max-width: 90%;
 }
 
 .row{
   padding-bottom:10px
+}
+
+footer{
+  text-align: center;
+  background-color: green;
+  color: white
 }

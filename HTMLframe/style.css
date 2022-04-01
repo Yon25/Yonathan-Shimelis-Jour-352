@@ -1,0 +1,47 @@
+.headline{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.byline{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Monserrat', sans-serif;
+  text-align: center;
+}
+
+p{
+  font-family: georgia, serif;
+  line-height: 180%;
+}
+
+h2{
+  font-weight: bold;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.caption{
+  color: grey;
+  font-style: italic;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.row{
+  text-align: center;
+  padding-bottom: 20px;
+}

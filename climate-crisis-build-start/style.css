@@ -1,0 +1,230 @@
+BODY {
+  font-family: "Times New Roman", serif;
+  font-size: 17px;
+}
+
+
+.container {
+  text-align:center;
+}
+
+p{
+  text-align:left;
+  line-height:180%;
+  font-family: "Times New Roman", serif;
+
+}
+
+.firstword{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: red;
+  font-size: 20px
+}
+
+
+.navbar {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.hed {
+  font-size:3em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+}
+
+
+.byline {
+  font-size:1em;
+  text-transform:uppercase;
+  margin-top:-10px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.chapter-head {
+  font-size:2em;
+  font-family: 'Open Sans', sans-serif;
+  padding-top:20px;
+  font-weight:700;
+  color: red;
+}
+
+.stack-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+  height:100%;
+}
+
+.caption {
+  width:100%;
+  max-width:900px;
+  margin: 0 auto;
+  padding:30px;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color:#999;
+}
+
+.footer {
+  background: #000;
+  height:100px;
+  min-height: 100px;
+  padding-top:25px;
+  margin-top:100px;
+}
+
+.footer p {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff
+}
+
+/* Nav logo */
+.nav-logo{
+  color: white;
+  margin: 0 auto;
+  font-weight: 700;
+  text-transform: Uppercase;
+}
+
+/* color red */
+.red{
+  color:red;
+}
+
+.bg-dark{
+  background: black !important;
+}
+
+/*Splash image*/
+.hero-container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/*hero-image*/
+.hero-image{
+  width:100%;
+}
+
+/*overlay*/
+.overlay{
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  background: black;
+  opacity: .7;
+}
+
+/*hero-head*/
+.hero-head{
+  padding-top: 10px;
+  margin: 0 auto;
+  font-size: 6em;
+  font-family: 'Playfair display', serif;
+  padding-bottom: 10px;
+  color: white;
+}
+
+/*hero-sub*/
+.hero-sub{
+  font-size: .25em;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Pullquote styling*/
+.quote{
+  font-family: 'Montserrat', sans-serif;
+  color:red;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+  padding: 15px, 0, 15px, 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.attribution{
+  font-size: .5em;
+  font-weight: 100;
+  color: black;
+
+}
+
+.sidebar{
+  border-bottom: 5px double orange;
+  border-left: 5px double orange;
+  border-right: 5px double orange;
+  max-width: 65%;
+  margin: 0 auto;
+  padding: 15px, 15px, 15px,15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-spacing: 105px;
+}
+
+.sidebartitle{
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  background-color: orange;
+  color: white;
+}
+
+.sidebarsource{
+  font-style: italic;
+  font-weight: 100;
+  color: grey;
+}
+
+.sidebarfirstwords{
+  color: white;
+  background-color: red;
+  font-size: 12px;
+}
+
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color:green;
+}
+
+a:hover{
+  color:red;
+}
+
+.additionalsources{
+  font-style: italic;
+  color: #A9A9A9;
+}
+
+@media(max-width:650px) {
+  p {
+    padding-left:20px;
+    padding-right:10px;
+  }
+
+  .chapter-head {
+    font-size:1.25em;
+  }
+
+  .hed {
+    font-size:2em;
+  }
+
+  .hero-head{
+    font-size: .25em;
+
+  }
+
+}

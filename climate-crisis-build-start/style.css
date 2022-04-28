@@ -20,7 +20,7 @@ p{
   text-transform: uppercase;
   color: white;
   background-color: red;
-  font-size: 20px
+  font-size: 30px
 }
 
 
@@ -225,6 +225,9 @@ a:hover{
   .hero-head{
     font-size: .25em;
 
+  }
+  .overlay{
+    font-size: 15em;
   }
 
 }

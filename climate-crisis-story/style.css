@@ -245,4 +245,8 @@ a:hover{
     font-size: 15em;
   }
 
+  .navbar{
+    max-width: 100%
+  }
+
 }

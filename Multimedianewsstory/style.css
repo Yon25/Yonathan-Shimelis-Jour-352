@@ -3,34 +3,30 @@ BODY {
   font-size: 17px;
 }
 
+
 .white{
   text-transform: uppercase;
 }
 
+.nav-logo{
+  color: white;
+  margin: 0 auto;
+  font-weight: 500;
+  width: 100%;
+}
 
+/*Hero container*/
 .hero-container{
   color: white;
   background-color: black;
   width:100%;
+  max-width: 100%;
 }
 
-/* Source of knowldedgehttps://www.tutorialspoint.com/how-to-create-a-black-and-white-image-using-css*/
-.hero-image{
-  width:100%;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-}
-
-.storyimage{
-  width:100%;
-}
-
-
-.headline{
-  font-size: 3em;
-  font-weight: 700;
-  text-align: center;
-  font-family: 'Times New Roman', sans-serif;
+/*Container would not fill page horizontally for some reason*/
+.container{
+  width: 100%;
+  max-width: 100%;
 }
 
 .hed {
@@ -39,6 +35,28 @@ BODY {
   font-weight:700;
 }
 
+
+/* Source of knowldedgehttps://www.tutorialspoint.com/how-to-create-a-black-and-white-image-using-css*/
+.hero-image{
+  width:100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+/*Styling for images in story text*/
+.storyimage{
+  width:100%;
+}
+
+/*Headline style*/
+.headline{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+/*byline style*/
 .byline{
   font-size: 1em;
   text-transform: uppercase;
@@ -46,41 +64,41 @@ BODY {
   text-align: center;
 }
 
+/*text styling*/
 p{
   font-family: georgia, serif;
   line-height: 180%;
+  text-align: left;
 }
 
-h2{
-  font-weight: bold;
-}
 
-.image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
+/*caption style*/
 .caption{
   color: grey;
   font-style: italic;
   text-align: left;
 }
 
+/*footer style*/
 footer{
-  text-align: center;
   background-color: black;
   color: white;
   padding: 10px;
   width: 100%;
 }
 
+/*footer text*/
+footer p{
+  text-align: center;
+}
+
+
 .row{
   text-align: center;
   padding-bottom: 20px;
 }
 
+/*quote style*/
 .quote{
   font-family: 'Montserrat', sans-serif;
   color:white;
@@ -95,6 +113,7 @@ footer{
   background-color: grey;
 }
 
+/*attribution*/
 .attribution{
   font-size: .5em;
   font-weight: 100;
@@ -102,21 +121,25 @@ footer{
   font-style: italic;
 }
 
+/*highlighted text*/
 .importantwords{
   text-transform: uppercase;
   font-size: 20px;
 }
 
+/*First words of the story*/
 .startingwords{
   text-transform: uppercase;
   font-size: 30px;
 }
 
+/*link text styling*/
 .link{
   font-style: italic;
   font-weight: bold;
 }
 
+/*link styling*/
 a:link{
   color:red;
 }
@@ -135,12 +158,7 @@ a:hover{
     padding-right:10px;
   }
 
-
-  .hed {
-    font-size:2em;
+  .nav-logo{
+    font-size: .60em;
   }
-
-  .hero-head{
-    font-size: .25em;
-
-  }
+}

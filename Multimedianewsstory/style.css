@@ -25,9 +25,6 @@ BODY {
   width:100%;
 }
 
-#coachfrance{
-  margin: 0 auto;
-}
 
 .headline{
   font-size: 3em;
@@ -86,7 +83,7 @@ footer{
 
 .quote{
   font-family: 'Montserrat', sans-serif;
-  color:red;
+  color:white;
   font-size: 3em;
   font-weight: 700;
   text-align: left;
@@ -95,12 +92,13 @@ footer{
   border-bottom: 1px solid black;
   margin-top: 20px;
   margin-bottom: 20px;
+  background-color: grey;
 }
 
 .attribution{
   font-size: .5em;
   font-weight: 100;
-  color: black;
+  color: white;
   font-style: italic;
 }
 
@@ -112,6 +110,11 @@ footer{
 .startingwords{
   text-transform: uppercase;
   font-size: 30px;
+}
+
+.link{
+  font-style: italic;
+  font-weight: bold;
 }
 
 a:link{

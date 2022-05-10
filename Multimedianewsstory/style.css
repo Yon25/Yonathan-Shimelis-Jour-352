@@ -1,0 +1,143 @@
+BODY {
+  font-family: "Times New Roman", serif;
+  font-size: 17px;
+}
+
+.white{
+  text-transform: uppercase;
+}
+
+
+.hero-container{
+  color: white;
+  background-color: black;
+  width:100%;
+}
+
+/* Source of knowldedgehttps://www.tutorialspoint.com/how-to-create-a-black-and-white-image-using-css*/
+.hero-image{
+  width:100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.storyimage{
+  width:100%;
+}
+
+#coachfrance{
+  margin: 0 auto;
+}
+
+.headline{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.hed {
+  font-size:3em;
+  font-family: 'Times New Roman', sans-serif;
+  font-weight:700;
+}
+
+.byline{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Monserrat', sans-serif;
+  text-align: center;
+}
+
+p{
+  font-family: georgia, serif;
+  line-height: 180%;
+}
+
+h2{
+  font-weight: bold;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.caption{
+  color: grey;
+  font-style: italic;
+  text-align: left;
+}
+
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.row{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.quote{
+  font-family: 'Montserrat', sans-serif;
+  color:red;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+  padding: 15px, 0, 15px, 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.attribution{
+  font-size: .5em;
+  font-weight: 100;
+  color: black;
+  font-style: italic;
+}
+
+.importantwords{
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.startingwords{
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+a:link{
+  color:red;
+}
+
+a:visited{
+  color:blue;
+}
+
+a:hover{
+  color:black;
+}
+
+@media(max-width:650px) {
+  p {
+    padding-left:20px;
+    padding-right:10px;
+  }
+
+
+  .hed {
+    font-size:2em;
+  }
+
+  .hero-head{
+    font-size: .25em;
+
+  }

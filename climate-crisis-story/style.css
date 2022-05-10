@@ -6,6 +6,7 @@ BODY {
 
 .container {
   text-align:center;
+  margin: 0 auto;
 }
 
 p{
@@ -110,9 +111,13 @@ p{
   color: white;
 }
 
+.container{
+  width: 100%;
+}
+
 /*hero-image*/
 .hero-image{
-  width:100%;
+  max-width: 90%;
 }
 
 /*overlay*/
